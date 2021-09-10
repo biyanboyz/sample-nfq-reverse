@@ -1,5 +1,5 @@
 [package]
-name = "nfq2"
+name = "app"
 version = "0.1.0"
 authors = ["user <biyandonk@yahoo.co.id>"]
 edition = "2018"
@@ -9,10 +9,6 @@ edition = "2018"
 [dependencies]
 nfq = "0.2.4"
 etherparse = "0.9.0"
-tls-parser = "0.10.0"
-rand = "0.8.3"
-rawsock = "0.3.0"
-pretty_assertions = "0.6.1"
-smoltcp = "0.7.0"
-pnet = "0.27.2"
-http = "0.2.3"
+scraper = "0.12.0"
+ego-tree = "0.6.2"
+tendril = "0.4.2"
